@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundwallpaperblue"
+    tools:context=".newAccountActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/NameNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="65px"
+                android:text="@string/nameNewAcount"
+                android:textColor="#020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center|center_horizontal|center_vertical"
+                android:hint="Introduce tu nombre"
+                android:inputType="textPersonName"
+                android:scrollbarAlwaysDrawHorizontalTrack="false"
+                android:scrollbarAlwaysDrawVerticalTrack="false"
+                android:textColor="#070707" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/lastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="40px"
+                android:text="@string/lastNameNewAcount"
+                android:textColor="#020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextLastName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="16"
+                android:gravity="center"
+                android:hint="Introduce tus apellidos"
+                android:inputType="textPersonName"
+                android:textColor="#020202" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/DNI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="20px"
+                android:text="@string/idNewAcount"
+                android:textColor="#000000"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNumberDNI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="Introduce el número de DNI"
+                android:inputType="number"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textViewFlat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="22px"
+                android:text="@string/flatNewAcount"
+                android:textColor="#070707"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNumberFlatNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="16"
+                android:gravity="center"
+                android:hint="Introduce el número de piso"
+                android:inputType="number"
+                android:textColor="#050505" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textViewUserNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:paddingRight="70px"
+                android:text="@string/userNewAcount"
+                android:textColor="#020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonNameUserNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="16"
+                android:gravity="center"
+                android:hint="Introduce un nombre de usuario"
+                android:inputType="textPersonName"
+                android:textColor="#050505" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="25dp">
+
+            <TextView
+                android:id="@+id/textViewPasswordNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0"
+                android:paddingLeft="20px"
+                android:text="@string/passwordNewAcount"
+                android:textColor="#020202"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/editTextNumberPassword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="16"
+                android:gravity="center"
+                android:hint="Introduce una contraseña"
+                android:inputType="numberPassword"
+                android:textColor="#000000" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="65dp"
+            android:gravity="center_horizontal">
+
+            <Button
+                android:id="@+id/buttonSaveNewAcount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button"
+                android:scaleX="1.2"
+                android:text="@string/buttonSaveNewAcount"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                app:backgroundTint="#1C68A5" />
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

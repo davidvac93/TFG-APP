@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Final project</string>
+    <string name="welcomeMainActivity">Bienvenid@s</string>
+    <string name="buttonLogin">Iniciar sesión</string>
+    <string name="buttonCreateAcount">Crear cuenta</string>
+    <string name="descriptionMainActivity"> Le presentamos Now la primera aplicación para poder realizar reservas en el abanico de zonas comunes
+de su urbanización de manera inmediata y cómoda para facilitar los momentos de desconexión tan necesarios</string>
+    <string name="nameNewAcount">Nombre</string>
+    <string name="lastNameNewAcount">Apellidos</string>
+    <string name="idNewAcount">DNI</string>
+    <string name="flatNewAcount">Piso</string>
+    <string name="userNewAcount">Usuario</string>
+    <string name="passwordNewAcount">Contraseña</string>
+    <string name="buttonSaveNewAcount">Guardar</string>
+    <string name="buttonBack">Volver</string>
+    <string name="buttonViewApointment">Mis reservas</string>
+    <string name="buttonCancelApointment">Cancelar reserva</string>
+    <string name="buttonCreateApointment">Nueva reserva</string>
+    <string name="textLogOff">Desconectarse</string>
+    <string name="Reserve">Reservar</string>
+    <string name="Back">Volver</string>
+</resources>
